@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="oddeven.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="oddeven">
+    <h2>Find Odd Even Numbers</h2>
+    <label> Enter the Number</label>
+    <input type="number" id="num1" name="oddeven">
+    <br><br>
+    <button onclick=oddEven() id="btn1">Submit</button>
+    <br><br>
+    <label>Result :</label>
+    <input type="text" id="result" size="30px">
+    <hr>
+    </div>
+    <div class="temperature">
+        <h2>Convert Celcius to fahrenheit</h2>
+        <lable>Enter Temperature in Celcius/Fahrenheit</lable>
+        
+        <input type="number" id="num2" name="conversion">
+
+        <br><br>
+        <button onclick=temperature() id="btn2">Convert to Fahrenheit</button>
+        <button onclick=temperature2() id="btn3">Convert to Celcius</button>
+        <br><br>
+        <label>Conversion Result</label>
+        <input type="text" id="result2">
+        <hr>
+    </div>
+    <div class="largestnumber">
+        <h2>Find The Largest Among Three Largest</h2>
+        <label>Enter First Number</label>
+        <input type="number" id="number1" value="number1">
+        <br><br>
+        <label>Enter Second Number</label>
+        <input type="number" id="number2" value="number1">
+        <br><br>
+        <label>Enter Third Number</label>
+        <input type="number" id="number3" value="number1">
+        <br><br>
+        <button onclick=largestNumber() id="btn4">Submit</button>
+        <br><br>
+        <label>Result</label>
+        <input type="text" id="largestResult">
+        <hr>
+    </div>
+    <div>
+        <h2>Table for a Number</h2>
+        <label>Enter Number</label>
+        <input type="number" id="tnum" value="numTable">
+        <br><br>
+        <button onclick=findTable()>Print</button>
+        <br><br>
+        <label>Result :</label>
+        <input type="text" id="printresult" size="30px">
+        <hr>
+    </div>
+    <div>
+        <h2>Check If A Number Is Prime Or Not</h2>
+        <label>Enter Number</label>
+        <input type="number" id="primenum" value="prime">
+        <br><br>
+        <button onclick=primeFunc()>Find</button>
+        <br><br>
+        <label>Result</label>
+        <input type="text" id="primeresult">
+        <hr>
+    </div>
+    <div>
+        <h2>Finding factorial of a number</h2>
+        <label>Enter Number</label>
+        <input type="number" id="factnumber" value="factorial">
+        <br><br>
+        <button onclick=factFunc()>Find</button>
+        <br>
+        <br>
+        <label>Result</label>
+        <input type="text" id="factresult">
+    </div>
+</body>
+</html>
