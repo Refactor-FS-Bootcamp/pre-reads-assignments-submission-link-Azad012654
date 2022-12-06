@@ -93,6 +93,47 @@ function factFunc()
  }
  document.getElementById("factresult").value=fact;
 }
+//Finding the fibonacci sequence
+function fiboFunc(){
+var Input=document.getElementById("fibo").value;
+var result1="0 "+"1 ";
+var n1=0;
+var n2=1;
+
+
+for(var i=2;i<Input;i++)
+{  
+   var n3=n1+n2;
+   result1+=n3+" ";
+   n1=n2;
+   n2=n3;
+    
+}
+document.getElementById("fiboresult").value=result1;
+}
+//Palindrome Check
+function palindromeFunc()
+{
+   var a=document.getElementById("palindrome").value;
+   var result2="";
+   for(var i=0;i<a.length;i++)
+    {
+        for(var j=a.length-1;j>=0;j--)
+        {
+            if(a.charAt(i)!=a.charAt(j))
+            {
+                result2="Not Palindrome";
+                
+            }
+            else
+            {
+                result2="Palindrome";
+            }
+        }
+    } 
+    document.getElementById("palidromeresult").value=result2;
+}
+
 
 
 

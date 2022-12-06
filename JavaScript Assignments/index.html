@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
+    <h1>Java Script Practise Code</h1>
+    
     <div class="oddeven">
     <h2>Find Odd Even Numbers</h2>
     <label> Enter the Number</label>
@@ -35,7 +38,7 @@
         <hr>
     </div>
     <div class="largestnumber">
-        <h2>Find The Largest Among Three Largest</h2>
+        <h2>Find The Largest Among Three Numbers</h2>
         <label>Enter First Number</label>
         <input type="number" id="number1" value="number1">
         <br><br>
@@ -83,6 +86,32 @@
         <br>
         <label>Result</label>
         <input type="text" id="factresult">
+        <br><br>
+        <hr>
     </div>
+    <div>
+        <h2>Find Fibonacci Sequence</h2>
+        <label> Enter The Count Of Numbers </label>
+        <input type="number" id="fibo" value="fibonacci"><br><br>
+        <button onclick=fiboFunc()>Find</button>
+        <br><br>
+        <label>Result</label>
+        <input type="text" id="fiboresult" size="40px">
+        <br><br>
+    </div>
+    <div>
+        <h2>Check if the String is Palindrome</h2>
+        <label>Enter The String</label>
+        <input type="text" id="palindrome" value="">
+        <br><br>
+        <button onclick=palindromeFunc()>Check</button>
+        <br><br>
+        <label>Result</label>
+        <input type="text" id="palidromeresult">
+        <br><br>
+    </div>
+    <button class="resetbutton">Reset</button>
+    
+
 </body>
 </html>
