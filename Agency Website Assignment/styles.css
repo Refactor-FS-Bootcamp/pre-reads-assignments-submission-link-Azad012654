@@ -1,0 +1,188 @@
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background-color: #070707;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #030303;
+    color: rgb(167, 44, 44);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 50px;
+    text-shadow: #151a99;
+    border-bottom: rgb(120, 99, 99) 5px solid; 
+    font-weight: bold;
+    
+}
+header a{
+    color: rgb(120, 99, 99);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+header li{
+    display: inline;
+    padding: 0 20px;
+}
+header .branding{
+    float: left;
+    
+}
+
+header nav{
+    float: right;
+    margin-top: 22px;
+}
+a:hover{
+    background-color: rgb(215, 67, 86);
+    color: rgb(8, 8, 8);
+    font-weight:bold;
+    
+}
+#showcase{
+    min-height: 300px;
+    background-image: url(./images/tiles-home.jpg);
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -100px;
+    border-bottom: rgb(120, 99, 99) 5px solid; 
+}
+.container2 h1{
+    display:inline-block;
+    text-align: left;
+    font-family:Georgia, serif;
+    font-size: 20px;
+    color:#ede9e9;
+    background-color: rgb(119, 12, 12);
+    
+}
+footer h1{
+    
+    color:rgb(208, 134, 5);
+    font-size:15px;
+    text-transform:uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding : 8px 20px
+}
+footer{
+    
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+footer p{
+    color:rgb(208, 134, 5);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform:uppercase;
+    text-align: right;
+    
+}
+/* .container3{
+    background-color: #030303;
+    display:inline-flex;
+    align-content: space-around;
+    height:30vh;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-items: center;
+    
+} */
+#boxes .box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:inline-block;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    color: aliceblue;
+    
+    
+    
+}
+#boxes{
+    border-bottom: rgb(120, 99, 99) 5px solid;
+}
+.box:hover{
+    border: white 5px;
+}
+.services{
+    font-weight: bold;
+    position:Relative;
+    display: inline-block;
+    
+    padding:80px 80px;
+   
+    
+    color:rgb(239, 132, 49);
+    
+}
+.services li:hover{
+  background-color: rgb(224, 234, 216);
+  color:black;
+}
+.menu{
+    border-bottom: rgb(120, 99, 99) 5px solid;
+}
+
+.products{
+    font-weight: bold;
+    text-align: center;
+    color:rgb(239, 132, 49);
+    padding-left:50px;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-right:25px;
+    border:solid rgb(198, 164, 42) 5px;
+    margin:40px;
+}
+.contactform{
+    text-align: center;
+    display:inline-block;
+    font-weight: bold;
+    margin:20px;
+    padding-top: 50px;
+    padding-left:50px;
+    padding-bottom:50px;
+    padding-right:50px;
+    color:rgb(239, 132, 49);
+    border:solid rgb(198, 164, 42) 5px;
+    border-radius: solid white 5px;
+}
+input:hover{
+    background-color: rgb(215, 162, 49);
+    
+}
+textarea:hover{
+    background-color: rgb(215, 162, 49);
+}
+input{
+    background-color: grey;
+    color:grey;
+}
+textarea{
+    background-color: grey;
+}
+.aboutcontainer{
+    border-bottom: rgb(120, 99, 99) 5px solid;
+}
+
+
+
